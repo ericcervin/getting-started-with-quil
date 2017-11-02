@@ -2,15 +2,10 @@
   (:require [quil.core :as q]))
 
 
-(defn setup []
-  (q/smooth))
+(defn setup [])
 
-(defn draw []
-  (if (q/mouse-pressed?)
-    (q/fill 0)
-    (q/fill 255))
-   
-  (q/ellipse (q/mouse-x) (q/mouse-y) 80 80))
+
+(defn draw [])
 
 (q/defsketch practice
   :size [480 120]
