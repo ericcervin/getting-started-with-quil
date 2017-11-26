@@ -17,7 +17,7 @@
 
 
 (q/defsketch practice
-  :size [480 120]
+  :size [100 100]
   :setup setup
   ;;:update update-state
   ;;:draw draw
