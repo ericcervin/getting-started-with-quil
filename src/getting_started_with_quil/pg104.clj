@@ -6,7 +6,7 @@
   ;;(q/frame-rate 30));; Thirty frames each second
   ;;(q/frame-rate 12));;  Twelve frames each second
   ;;(q/frame-rate 2));;  Two frames each second
-  (q/frameRate 0.5)) ;;One frame every two seconds
+  (q/frame-rate 0.5)) ;;One frame every two seconds
   
   
 
