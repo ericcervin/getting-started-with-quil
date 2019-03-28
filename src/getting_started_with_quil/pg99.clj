@@ -1,4 +1,4 @@
-(ns getting-started-with-quil.template_fun
+(ns getting-started-with-quil.pg99
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 

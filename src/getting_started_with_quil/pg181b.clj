@@ -1,4 +1,4 @@
-(ns getting-started-with-quil.pg181
+(ns getting-started-with-quil.pg181b
   (:require [quil.core :as q]
             [quil.middleware :as m]
             [clojure.java.io :as io]))
@@ -20,8 +20,8 @@
          (condp = robot-type
            "1" (q/shape bot1 x y (* (.width bot1) sc) (* (.height bot1) sc))
            "2" (q/shape bot2 x y (* (.width bot2) sc) (* (.height bot2) sc))
-           "3" (q/shape bot3 x y (* (.width bot3) sc) (* (.height bot3) sc))
-           )))))
+           "3" (q/shape bot3 x y (* (.width bot3) sc) (* (.height bot3) sc)))))))
+           
 
 
 (q/defsketch practice

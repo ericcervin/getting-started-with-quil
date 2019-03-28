@@ -1,4 +1,4 @@
-(ns getting-started-with-quil.pg76
+(ns getting-started-with-quil.pg77
   (:require [quil.core :as q]))
 
 (defn setup [])
